@@ -3,7 +3,7 @@ Feature: Edit User Profile
    Background:
     Given User is logged in to the application
 
-   @only @smoke
+   
     Scenario: Update user profile information
       When User press on "Edit Account" menu
       And User updates the Telephone
